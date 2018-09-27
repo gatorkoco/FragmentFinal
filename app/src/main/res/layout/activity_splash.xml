@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context="com.example.rexita.finalfragment.SplashActivity"
+    android:id="@+id/splash_screen">
+
+    <!--Menampilkan gambar splash yg dipilih-->
+    <ImageView
+        android:id="@+id/gambarSplash"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/splash" />
+
+    <!--Menampilkan animasi loading-->
+    <ProgressBar
+        android:id="@+id/progresBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--Menampilkan text untuk creator-->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="341dp"
+        android:layout_height="153dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Copyright : Kelompok 1 TI 4G"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="cursive"
+        android:text="Bragaz Rexita , Gatra Bagaskoro, Rakha Hidayat"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
